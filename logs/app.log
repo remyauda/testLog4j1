@@ -16,3 +16,6 @@
 2017-03-05 19:42:11,810 WARN t.TestLog4j1 [main] msg d'avertissement
 2017-03-05 19:42:11,917 ERROR t.TestLog4j1 [main] msg d'erreur
 2017-03-05 19:42:11,962 FATAL t.TestLog4j1 [main] msg d'erreur fatale
+2017-03-05 22:45:33,891 WARN t.TestLog4j1 [main] msg d'avertissement
+2017-03-05 22:45:33,963 ERROR t.TestLog4j1 [main] msg d'erreur
+2017-03-05 22:45:34,007 FATAL t.TestLog4j1 [main] msg d'erreur fatale
