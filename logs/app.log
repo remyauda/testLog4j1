@@ -1,0 +1,18 @@
+2017-03-05 19:33:33,211 WARN t.TestLog4j1 [main] msg d'avertissement
+2017-03-05 19:33:33,351 ERROR t.TestLog4j1 [main] msg d'erreur
+2017-03-05 19:33:33,415 FATAL t.TestLog4j1 [main] msg d'erreur fatale
+2017-03-05 19:34:28,256 WARN t.TestLog4j1 [main] msg d'avertissement
+2017-03-05 19:34:28,383 ERROR t.TestLog4j1 [main] msg d'erreur
+2017-03-05 19:34:28,428 FATAL t.TestLog4j1 [main] msg d'erreur fatale
+2017-03-05 19:36:19,569 WARN t.TestLog4j1 [main] msg d'avertissement
+2017-03-05 19:36:19,657 ERROR t.TestLog4j1 [main] msg d'erreur
+2017-03-05 19:36:19,700 FATAL t.TestLog4j1 [main] msg d'erreur fatale
+2017-03-05 19:37:13,590 WARN t.TestLog4j1 [main] msg d'avertissement
+2017-03-05 19:37:13,724 ERROR t.TestLog4j1 [main] msg d'erreur
+2017-03-05 19:37:13,769 FATAL t.TestLog4j1 [main] msg d'erreur fatale
+2017-03-05 19:41:38,716 WARN t.TestLog4j1 [main] msg d'avertissement
+2017-03-05 19:41:38,806 ERROR t.TestLog4j1 [main] msg d'erreur
+2017-03-05 19:41:38,838 FATAL t.TestLog4j1 [main] msg d'erreur fatale
+2017-03-05 19:42:11,810 WARN t.TestLog4j1 [main] msg d'avertissement
+2017-03-05 19:42:11,917 ERROR t.TestLog4j1 [main] msg d'erreur
+2017-03-05 19:42:11,962 FATAL t.TestLog4j1 [main] msg d'erreur fatale

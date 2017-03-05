@@ -22,10 +22,19 @@
 			</PatternLayout>
 			<Policies>
 				<TimeBasedTriggeringPolicy />
-				<SizeBasedTriggeringPolicy size="1 MB" />
+				<SizeBasedTriggeringPolicy size="20 MB" />
 			</Policies>
 			<DefaultRolloverStrategy max="20" />
 		</RollingFile>
+
+
+		<JDBC name="databaseAppender" tableName="logs">
+			<ConnectionFactory class="testLog4j1.ConnectionFactory" method="getDatabaseConnection" />
+			<Column name="EVENT_DATE" isEventTimestamp="true" />
+			<Column name="LEVEL" pattern="%level" />
+			<Column name="LOGGER" pattern="%logger" />
+			<Column name="MESSAGE" pattern="%message" />
+		</JDBC>
 
 	</Appenders>
 
@@ -35,10 +44,11 @@
 		<Logger name="configurationLog" level="info" />
 
 		<!-- Configuration of the root Loggers -->
-		<Root level="debug">
+		<Root level="warn">
 			<AppenderRef ref="Console" />
 			<AppenderRef ref="MyFile" />
 			<AppenderRef ref="RollingFile" />
+			<AppenderRef ref="databaseAppender" />
 		</Root>
 
 	</Loggers>
