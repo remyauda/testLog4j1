@@ -66,3 +66,6 @@
 2017-03-05 22:45:33,891 WARN  [main] testLog4j1.TestLog4j1 (TestLog4j1.java:20) - msg d'avertissement
 2017-03-05 22:45:33,963 ERROR [main] testLog4j1.TestLog4j1 (TestLog4j1.java:23) - msg d'erreur
 2017-03-05 22:45:34,007 FATAL [main] testLog4j1.TestLog4j1 (TestLog4j1.java:26) - msg d'erreur fatale
+2017-03-06 19:40:50,633 WARN  [main] testLog4j1.TestLog4j1 (TestLog4j1.java:20) - msg d'avertissement
+2017-03-06 19:40:51,018 ERROR [main] testLog4j1.TestLog4j1 (TestLog4j1.java:23) - msg d'erreur
+2017-03-06 19:40:51,064 FATAL [main] testLog4j1.TestLog4j1 (TestLog4j1.java:26) - msg d'erreur fatale

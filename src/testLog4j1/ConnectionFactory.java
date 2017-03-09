@@ -13,10 +13,12 @@ import org.apache.commons.dbcp.PoolingDataSource;
 import org.apache.commons.pool.impl.GenericObjectPool;
  
 public class ConnectionFactory {
+	
     private static interface Singleton {
         final ConnectionFactory INSTANCE = new ConnectionFactory();
     }
- 
+    
+    private static final String databaseNameOfLogs = "testlog";
     private final DataSource dataSource;
  
     private ConnectionFactory() {
@@ -26,7 +28,7 @@ public class ConnectionFactory {
  
         GenericObjectPool<PoolableConnection> pool = new GenericObjectPool<PoolableConnection>();
         DriverManagerConnectionFactory connectionFactory = new DriverManagerConnectionFactory(
-                "jdbc:mysql://localhost/testlog", properties
+                "jdbc:mysql://localhost/"+databaseNameOfLogs, properties
         );
         new PoolableConnectionFactory(
                 connectionFactory, pool, null, "SELECT 1", 3, false, false, Connection.TRANSACTION_READ_COMMITTED
